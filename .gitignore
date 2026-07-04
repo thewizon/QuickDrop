@@ -27,6 +27,7 @@ logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
 # =========================
 # Coverage
@@ -37,25 +38,25 @@ coverage/
 # Cache
 # =========================
 .cache/
-.vite/
+**/.vite/
 
 # =========================
-# OS Files
+# Backend Temporary Files
+# =========================
+backend/uploads/
+backend/temp/
+
+# =========================
+# Operating System Files
 # =========================
 .DS_Store
 Thumbs.db
 
 # =========================
-# IDE
+# IDE / Editor
 # =========================
 .vscode/
 .idea/
-
-# =========================
-# Backend Temporary Files
-# =========================
-quickdrop-backend/uploads/
-quickdrop-backend/temp/
 
 # =========================
 # Misc
